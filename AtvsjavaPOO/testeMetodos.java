@@ -7,7 +7,7 @@ public class testeMetodos {
 		String nome = cliente01.nome();
 		double valor = cliente01.valor();
 		boolean estado = cliente01.estado();
-		System.out.printf("A idade do aluno %s é %d");
+		System.out.printf("A idade do aluno %s é %d", nome, idade);
 		
 	}
 }
